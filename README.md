@@ -37,20 +37,9 @@ The system uses the TMDB movie dataset, which contains information about various
 3. Open your web browser and go to the provided URL to use the movie recommendation system.
 
 ## Example
+![Movie Recommendations](https://github.com/aryangusain/movie-recommendation-system/assets/97178343/5c5c0cf6-34d6-43d3-8a73-6b3112390e8c)
 
-User inputs the movie: "Inception"
-
-The system recommends the following 5 movies:
-
-1. The Matrix
-2. Interstellar
-3. Shutter Island
-4. The Dark Knight
-5. Blade Runner
-
-![Movie Recommendations](path/to/your/image.png)
-
-**Explore the live application [here](https://your-live-app-url).**
+**Explore the live application [here](https://movie-recommendation-system-miw6ddhzfcre5jszacpccb.streamlit.app/).**
 
 Feel free to explore and enjoy discovering new movies!
 
