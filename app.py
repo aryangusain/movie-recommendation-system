@@ -3,13 +3,11 @@ import pickle
 import pandas as pd
 import requests
 import os
-from dotenv import dotenv_values
 
 st.set_page_config(layout="wide")
-api_key = dotenv_values('.env')['API_KEY']
 
 def fetch_poster(movie_id):
-    response = requests.get('https://api.themoviedb.org/3/movie/' +  str(movie_id) + '?api_key=' + str(api_key) + '&language=en-US')
+    response = requests.get('https://api.themoviedb.org/3/movie/' +  str(movie_id) + '?api_key=a66c01801c221697fde250a5556a77ac&language=en-US')
     data = response.json()
     return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 
