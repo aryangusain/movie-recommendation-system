@@ -42,7 +42,3 @@ The system uses the TMDB movie dataset, which contains information about various
 **Explore the live application [here](https://movie-recommendation-system-miw6ddhzfcre5jszacpccb.streamlit.app/).**
 
 Feel free to explore and enjoy discovering new movies!
-
----
-
-**Note:** This is a basic example, and the actual implementation may involve more complex code and additional features.
